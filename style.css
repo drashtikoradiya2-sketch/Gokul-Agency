@@ -1,0 +1,71 @@
+lbody{
+    margin:0;
+    font-family:Arial;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+}
+
+.hero{
+    background:#ddd;
+    text-align:center;
+    padding:80px;
+}
+
+.about, .products, .contact{
+    padding:40px;
+    text-align:center;
+}
+
+.box{
+    display:inline-block;
+    margin:20px;
+}
+
+.box img{
+    width:200px;
+    height:200px;
+}
+
+form input, form textarea{
+    display:block;
+    width:300px;
+    margin:10px auto;
+    padding:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:green;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
